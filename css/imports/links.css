@@ -12,10 +12,24 @@ nav ul li a {
   text-transform: uppercase;
 }
 
-.active,
-nav li a:hover {
-  background: var(--main);
-  color: var(--background);
+/*
+.active {
+  text-decoration: underline;
+  color: var(--main);
   transition: 0.5s;
   border-radius: 3px;
+}*/
+
+.link-hover {
+  display: inline-block;
+}
+
+.link-hover::after {
+  content: "";
+  display: block;
+  margin: auto;
+  height: 3px;
+  width: 0px;
+  transition: width 0.5s ease-in-out;
+  background-color: var(--main);
 }

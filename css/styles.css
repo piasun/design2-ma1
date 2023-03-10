@@ -15,16 +15,24 @@ body {
 
 /*header*/
 header {
-  background: var(--section);
   display: block;
   margin: 20px;
   min-height: 50px;
+  border-radius: 3px;
+}
+
+.logo {
+  font: var(--header);
+  font-size: 25px;
+  font-weight: bold;
+  margin-left: 10px;
+  padding: 5px;
+  text-align: center;
 }
 
 /*header navigation*/
 
 nav {
-  margin-left: 25px;
   display: none;
   position: absolute;
   width: 100%;
@@ -32,7 +40,7 @@ nav {
   z-index: 1000;
   right: 0px;
   text-align: center;
-  background: var(--background);
+  background: var(--section);
   color: var(--main);
 }
 
