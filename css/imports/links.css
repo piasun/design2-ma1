@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+nav ul li a {
+  color: var(--main);
+  font-size: 16px;
+  font-weight: bold;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.active,
+nav li a:hover {
+  background: var(--main);
+  color: var(--background);
+  transition: 0.5s;
+  border-radius: 3px;
+}
