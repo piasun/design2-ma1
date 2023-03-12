@@ -15,8 +15,9 @@ body {
 
 /*header*/
 header {
+  background-color: var(--background);
   display: block;
-  margin: 20px;
+  margin-top: 20px;
   min-height: 50px;
   border-radius: 3px;
 }
