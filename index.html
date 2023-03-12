@@ -88,19 +88,26 @@
           </section>
         </div>
         <section class="newsletter-container">
-          <form>
-            <h3>
-              Get information about new products. Sign up for our newsletter
-            </h3>
-            <input
-              type="email"
-              name=""
-              id=""
-              placeholder="Email address.."
-              class="email"
-              required
-            />
-          </form>
+          <div>
+            <p>Be the first to hear about our newest products</p>
+          </div>
+          <div>
+            <form class="subscribe_form">
+              <div>
+                <input
+                  id="email"
+                  type="email"
+                  pattern="[a-z0-9._%+-]+@[a-z]{2,3}$"
+                  placeholder="Enter your emailadress"
+                  aria-label="Email"
+                  required
+                />
+              </div>
+              <div>
+                <button type="submit" class="subscribe_cta">Subscribe</button>
+              </div>
+            </form>
+          </div>
         </section>
       </main>
     </section>
