@@ -29,8 +29,8 @@
   background: var(--linear);
   margin: 20px auto;
   width: 250px;
-  padding: 10px;
-  border-radius: 3px;
+  padding: 40px;
+  border-radius: 5px;
 }
 
 .product-card img {
