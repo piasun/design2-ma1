@@ -17,16 +17,7 @@ body {
 }
 
 h1 {
-  font-size: 20px;
-}
-
-.main {
-  background-image: url("../images/Background_HomeDecor.jpeg");
-  background-repeat: no-repeat;
-  min-height: 770px;
-  width: 100%;
-  background-size: cover;
-  margin-top: -20px;
+  font-size: 25px;
 }
 
 /*header*/
@@ -41,6 +32,7 @@ header {
   font: var(--header);
   font-size: 25px;
   font-weight: bold;
+  color: var(--main);
   margin-left: 10px;
   padding: 5px;
   text-align: center;
@@ -91,6 +83,56 @@ nav li span {
 
 #menu-icon:checked ~ nav {
   display: block;
+}
+
+/*main elements*/
+.main {
+  background-image: url("../images/home.jpg");
+  background-repeat: no-repeat;
+  min-height: 770px;
+  width: 100%;
+  background-size: cover;
+  margin-top: -20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+/*newsletter*/
+
+.newsletter-container {
+  background: var(--linear);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+}
+
+.newsletter-container p {
+  color: var(--section);
+}
+
+.subscribe_form {
+  border: none;
+  color: var(--main);
+  display: inline-flex;
+  margin-bottom: 20px;
+}
+
+.subscribe_form input {
+  border-radius: 5px 0 0 5px;
+  padding: 10px;
+}
+
+.subscribe_cta {
+  border-radius: 0 5px 5px 0;
+  background-color: var(--background);
+  color: var(--main);
+  text-decoration: none;
+  padding: 10px 28px;
 }
 
 /*footer*/

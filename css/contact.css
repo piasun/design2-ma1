@@ -1,4 +1,8 @@
 /*contact section*/
+.main {
+  margin-top: 10px;
+}
+
 .contact_container {
   padding: 10px;
 }
