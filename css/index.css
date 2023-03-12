@@ -1,8 +1,57 @@
-.main_intro {
-  background-image: url("../images/table_decor.jpg");
+.main_index {
+  background-image: url("../images/home.jpg");
   background-repeat: no-repeat;
   min-height: 770px;
   width: 100%;
   background-size: cover;
   margin-top: -20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 20px auto;
+}
+
+.index-intro {
+  padding: 15px;
+  text-align: center;
+}
+
+.products-container {
+  background-color: var(--background);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.product-card {
+  background: var(--linear);
+  margin: 20px auto;
+  width: 250px;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.product-card img {
+  width: 100%;
+}
+
+.product-info {
+  background-color: var(--background);
+  padding: 15px;
+}
+
+.newsletter-container {
+  background: var(--linear);
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0;
+  align-items: center;
+}
+
+form {
+  max-width: 650px;
+  text-align: left;
+  margin: 10px;
+  padding: 20px;
 }
