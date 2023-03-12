@@ -7,6 +7,9 @@
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
   font-family: var(--text), sans-serif;
   margin: 0;
   background-color: var(--background);
@@ -91,6 +94,10 @@ nav li span {
 }
 
 /*footer*/
+footer {
+  margin-top: auto;
+}
+
 footer i {
   background: var(--background);
   color: var(--main);
@@ -102,6 +109,7 @@ footer i {
 
 footer h3 {
   color: var(--main);
+  padding-bottom: 10px;
 }
 
 footer i:hover {
