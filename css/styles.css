@@ -16,6 +16,14 @@ body {
   color: var(--main);
 }
 
+.background {
+  background-image: url("../images/background_texture.jpeg");
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
 h1 {
   font-size: 25px;
 }
@@ -93,6 +101,11 @@ nav li span {
   width: 100%;
   background-size: cover;
   margin-top: -20px;
+}
+
+.intro {
+  padding: 15px;
+  text-align: center;
 }
 
 .container {

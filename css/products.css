@@ -1,0 +1,53 @@
+.focus_img {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 650px;
+  border-radius: 5px;
+  filter: drop-shadow(21px 11px 24px rgb(0, 0, 0));
+}
+
+.product-slide {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.slide-card {
+  display: flex;
+  flex-direction: column;
+  margin: 10px auto;
+  position: relative;
+}
+
+.slide-card img {
+  height: 210px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.card_text {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 5px;
+  color: white;
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.4s ease-in-out;
+}
+
+.card_text p {
+  text-align: center;
+  padding: 50px;
+}
+
+.slide-card:hover .card_text {
+  opacity: 1;
+  transform: scale(1);
+}

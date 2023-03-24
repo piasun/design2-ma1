@@ -7,17 +7,6 @@
   margin-top: -20px;
 }
 
-.container {
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 20px;
-}
-
-.index-intro {
-  padding: 15px;
-  text-align: center;
-}
-
 .products-container {
   background-color: var(--background);
   display: flex;
