@@ -31,12 +31,13 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: black;
+  background: var(--background);
+  border: 2px solid var(--main);
   display: flex;
   flex-direction: column;
   justify-content: center;
   border-radius: 5px;
-  color: white;
+  color: var(--main);
   opacity: 0;
   transform: scale(0);
   transition: all 0.4s ease-in-out;
@@ -44,7 +45,11 @@
 
 .card_text p {
   text-align: center;
-  padding: 50px;
+  padding-top: 50px;
+}
+
+.card_text img {
+  width: 80%;
 }
 
 .slide-card:hover .card_text {
