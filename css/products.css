@@ -43,13 +43,13 @@
   transition: all 0.4s ease-in-out;
 }
 
-.card_text p {
+.card_text h2 {
   text-align: center;
   padding-top: 50px;
 }
 
 .card_text img {
-  width: 80%;
+  width: 35%;
 }
 
 .slide-card:hover .card_text {

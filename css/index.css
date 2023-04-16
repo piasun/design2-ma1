@@ -29,6 +29,7 @@
 .product-info {
   background-color: var(--background);
   padding: 15px;
+  min-height: 220px;
 }
 
 .newsletter-container {
